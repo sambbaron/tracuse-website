@@ -1,0 +1,428 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: rgb(250,250,250);
+	font-size: 100%;
+	font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+header {
+	display: inline-block;
+	width: 100%;
+	background-color: rgb(250,250,250);
+}
+
+header * {
+	vertical-align: middle;
+	font-family: 'Quattrocento Sans', Arial, sans-serif;
+}
+
+.header-left, .header-right {
+	height: 100%;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	float: left;
+}
+
+.header-left {
+	width: 35%;
+	padding-left: 4em;
+	text-align: left;
+}
+
+.header-right {
+	width: 65%;
+	padding-right: 8em;
+	text-align: right;
+}
+
+.product-logo {
+	height: 2.75em;
+}
+
+.product-tag {
+	color: RGB(132,191,46);
+	font-size: 2.0em;
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.section-one, .bkgrd {
+	height: 25em;
+	background-color: rgb(250,250,250);
+}
+
+.bkgrd {
+	position:absolute;
+	width: 100%;
+}
+
+.bkgrd-over {
+	background-color: rgba(176,186,215,0.6);
+}
+
+.product-summary {
+	position: absolute;
+	margin-top: 4em;
+	margin-left: 5em;
+	margin-right: 35em;
+}
+
+.conf-message {
+	position: relative;
+	width: 100%;
+	padding-top: 4em;
+	text-align: center;
+}
+
+.main-text {
+	padding: 0 0.25em;
+	color: RGB(53,67,106);
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.text-conf {
+	font-size: 2.5em;
+}
+
+.text-cts {
+	color: RGB(132,191,46);
+	font-size: 2em;
+}
+
+.cta-container {
+	position: absolute;
+	width: 25em;
+	right: 5%;
+	margin-top: 1.25em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.5em;
+	background-color: rgb(71,90,141);
+	box-shadow: 1px 4px 4px rgba(0,0,0,0.6);
+	border-radius: 5px;
+}
+
+.cta-container * {
+	text-align: center;
+}
+
+.cta-title {
+	width: 120%;
+	margin-left: -10%;
+	margin-top: 0.5em;
+	padding: 0.15em;
+	color: rgb(250,250,250);
+	background-color:rgb(231,103,7);
+	border-radius: 2px;
+	box-shadow: 1px 4px 4px rgba(0,0,0,0.6);
+	font-size: 2em;
+}
+
+.cta-question {
+	color: rgb(250,250,250);
+	font-size: 2.25em;
+	font-weight: bold;
+	text-shadow: 1px 3px 3px rgba(0,0,0,0.6);
+}
+
+.cta-answer {
+	width: 85%;
+	margin-top: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.25em 0.5em;
+	font-family: Arial, sans-serif;
+	font-size: 1.65em;
+	font-weight: bold;
+	background-color: rgb(250,250,250);
+	border: 2px solid darkgray;
+}
+
+.cta-answer option {
+	font-size: 0.75em;
+}
+
+.cta-answer:focus {
+	box-shadow: 0 0 15px rgb(132,191,46);
+}
+
+.cta-answer[name=orgtype] {
+	height: 1.75em;
+	text-align: center;
+}
+
+.cta-involvement {
+	text-align: left;
+}
+
+.cta-involvement-question {
+	font-size: 0.75em;
+}
+
+.cta-involvement input {
+	display: inline;
+	margin-top: 1em;
+}
+
+.cta-involvement span {
+	font-size: 0.5em;
+	font-weight: normal;
+	line-height: 150%;
+}
+
+.cta-button {
+	height:3.25em;
+	width: 92%;
+	margin-top: 0.75em;
+	padding: 0.25em 0em;
+	color: rgb(250,250,250);
+	font-family: Arial, sans-serif;
+	font-size: 1.75em;
+	font-weight: bold;
+	text-align: center;
+	vertical-align:middle;
+	background-color: rgb(132,191,46);
+	border: 5px outset rgb(132,191,46);
+	border-radius: 10px;
+	cursor: pointer;
+	white-space: normal;
+}
+
+.cta-button:focus, .cta-button:hover {
+	background-color: rgb(231,103,7);
+	border: 5px solid rgb(231,103,7);
+}
+
+.cts-container {
+	position:absolute;
+	width: 100%;
+	top: 18em;
+	bottom: 4.5em;
+	max-height: 65em;
+	text-align: center;
+}
+
+.cts-frame {
+	width: 85%;
+	height: 100%;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 1px 4px 4px rgba(0,0,0,0.6);
+}
+
+.desc-container {
+	width: 67%;
+	margin-top: 0.5%;
+	margin-left: 2%;
+}
+
+.desc-container * {
+	display:block;
+	width: 100%;
+}
+
+.desc-section {
+	width: 33%;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	float: left;
+	color: RGB(71,90,141);
+	border-right: 1.5px solid rgba(71,90,141,0.25);
+}
+
+.desc-section:last-child {
+	border-right: none;
+}
+
+.desc-title {
+	padding: 0.5em 0;
+	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+.desc-detail {
+	padding-bottom: 0.5em;
+	font-size: 1.5em;
+}
+
+footer {
+	position: fixed;
+	bottom: 0em;
+	width: 100%;
+	background: rgb(53,67,106);
+	color: rgb(250,250,250);
+	font-weight: bold;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.footer-container {
+	display:inline-block;
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 0.25em;
+	padding-bottom: 0.5em;
+	/*background: rgb(221,240,193);*/
+	/*border: 2px solid rgb(231,103,7);*/
+	/*border-radius: 5px;*/
+}
+
+.share-container {
+	/*display: inline-block;*/
+}
+
+.share-lead {
+	/*color: rgb(231,103,7);*/
+	font-size: 1.5em;
+	vertical-align: top;
+}
+
+.share-toolbox {
+	display: inline-block;
+}
+
+.contact-container {
+	/*position:absolute;
+	right: 2em;*/
+}
+
+.contact-link {
+	font-size: 1em;
+	color: rgb(208,214,231)
+}
+
+@media screen and (max-width: 1400px) {
+	
+	.product-summary {
+		margin-top: 2em;
+		margin-left: 2em;
+		margin-right: 30em;
+	}
+	
+	.text-intro {
+		font-size: 2.75em;
+	}
+		
+	.desc-container {
+		width: 60%;
+	}	
+	
+	.desc-title {
+		font-size: 1.5em;
+	}
+	
+	.desc-detail {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	
+	.text-intro {
+		font-size: 2.5em;
+	}
+	
+	.text-conf {
+		font-size: 2em;
+	}
+	
+	.text-cts {
+		font-size: 1.75em;
+	}
+	
+	/*Change description content from horizontal to vertical*/
+	.desc-container {
+		width: 90%;
+		margin-top: 5%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.desc-section {
+		width: 100%;
+		clear: both;
+		border-right: none;
+		border-bottom: 1.5px solid rgba(71,90,141,0.25); 
+	}
+	.desc-title {
+		font-size: 2em;
+	}
+	.desc-detail {
+		font-size: 1.75em;
+	}
+	
+	.desc-section:last-child {
+		border-bottom: none;
+	}
+}
+
+@media screen and (max-width: 950px) {
+	
+	/*Eliminate left-footer div*/
+	.left-footer {
+		width: 0;
+	}
+	.share-container {
+		width: 50%;
+	}
+	.contact-container {
+		width: 50%;
+	}
+	
+	.text-intro {
+		font-size: 2em;
+	}
+	
+	.text-conf {
+		font-size: 1.75em;
+	}
+		
+	.text-cts {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	
+	.text-intro {
+		font-size: 1.75em;
+	}
+	
+	.text-conf {
+		font-size: 1.5em;
+	}
+		
+	.text-cts {
+		font-size: 1.25em;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	
+	.section-one {
+		display: inline-block;
+		text-align: center;
+	}
+	
+	.bkgrd-image {
+		display: none;
+	}
+
+	.product-summary {
+		display:none;
+	}
+
+	.cta-container {
+		right:0;
+	}
+	
+}

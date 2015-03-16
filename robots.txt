@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /thankyou.php
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/

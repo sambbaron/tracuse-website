@@ -1,0 +1,6 @@
+*.htaccess
+*.log
+*.project
+*.idea
+i.php
+config.php

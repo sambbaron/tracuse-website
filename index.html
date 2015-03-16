@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+ 		<title>Tracuse | Connect Knowing with Doing</title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content="Tracuse lets you see and organize all of your information across every app, every part of your life.  Navigate across your data, projects, and tasks for better planning, prioritization, and focus." />
+		<meta name="robots" content="index,follow" />
+		
+		<!-- Bing Verification -->
+		<meta name="msvalidate.01" content="4A37629E5ACDB926889B52C8E10A35A0" />
+		
+		<!-- Open Graph Tags (Facebook) -->
+		<meta property="og:title" content="Tracuse" />
+		<meta property="og:site_name" content="Tracuse" />
+		<meta property="og:image" content="http://www.tracuse.com/images/Tracuse-Logo-NameTag-Medium-325x113.png" />
+		<meta property="og:url" content="http://www.tracuse.com" />
+		<meta property="og:description" content="Tracuse lets you see and organize all of your information across every app, every part of your life.  Navigate across your data, projects, and tasks for better planning, prioritization, and focus." />
+		
+		<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700,700italic' rel='stylesheet' type='text/css'>
+		<!-- <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" type="text/css" /> -->
+		<link rel="stylesheet" href="main.css" type="text/css" />
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script type='text/javascript' src='main.js'></script>
+		
+		<!-- Google Web Analytics -->
+		<script>
+			if (window.location.host != 'localhost') {
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			  ga('create', 'UA-54037140-1', 'auto');
+			  ga('send', 'pageview');
+			};
+		</script>
+		
+    </head>
+
+    <body>
+		
+		<!-- Header Section - Left: logo+name	Right: tagline -->
+		<header>
+			<div class="header-left">
+				<!-- Logo -->
+				<a href="http://www.tracuse.com" title="Tracuse">
+					<img class="product-logo" src="images/Tracuse-Logo.png" alt="Tracuse Logo">
+				</a>
+			</div>
+			<div class="header-right">
+				<!-- Tagline -->
+				<h3 class="product-tag">Connect Knowing with Doing</h3>
+			</div>
+		</header>
+        
+        <!-- Section One - image, introduction, call to action -->
+        <div class="section-one">
+        	
+			<!-- Background Image -->
+			<img class="bkgrd bkgrd-image" src="images/Organization-Chart-Bkgrd.png" alt="Organization Chart">
+			<!-- Background Overlay -->
+			<div class="bkgrd bkgrd-over"></div>
+			<!-- Product Introduction -->
+			<div class="product-summary" align="left">
+				<h1 class="main-text text-intro">A new kind of personal organization and information management platform</h1>
+			</div>
+			
+			<!-- Data Collection and Call to Action -->
+			<div class="cta-container">
+				<!-- <h4 class="cta-title">Sign Up to Learn More<br>&amp; Help Build Tracuse</h4> -->
+				<form name="cta-form" action="thankyou.php" method="post">
+					<!-- Question -->
+					<p class="cta-question">Why do you like<br>to be organized?</p>
+					<!-- Answer -->
+					<select class="cta-answer" name="orgtype" onchange="focusEmail()">
+						<option value="" selected style="font-style:italic;color:darkgray">Select an Answer</option>
+						<option value="Reduces Stress/Anxiety">Reduces Stress/Anxiety</option>
+						<option value="Helps Get Things Done">Helps Get Things Done</option>
+						<option value="Find My Info Quickly">Find My Info Quickly</option>
+						<option value="All Of The Above">All Of The Above</option>
+					</select>
+					<!-- Email Address -->
+					<input type="email" class="cta-answer" name="email" title="Email Address" placeholder="Enter Email Address" onfocus="showInvolvement()" required />
+					<!-- Future Involvement -->
+					<div class="cta-involvement cta-answer">
+						<p class="cta-involvement-question">How do you want to be involved in Tracuse?</p>
+						<input type="radio" name="involvement" value="Builder" /><span><strong>&nbsp;&nbsp;Builder</strong> - I want to help build Tracuse as a partner, employee, or contractor.</span><br>
+						<input type="radio" name="involvement" value="Tester" /><span><strong>&nbsp;&nbsp;Tester</strong> - I want to be closely involved as a potential user of Tracuse, including testing and interviewing.</span><br>
+						<input type="radio" name="involvement" value="Updates" checked/><span><strong>&nbsp;&nbsp;Updates</strong> - I only want to get updates on the project as it progresses.</span><br>
+					</div>
+					<!-- Call to Action Button -->
+					<input type="submit" class="cta-button" value="Sign Up for More Details and Exclusive Demo" />
+				</form>
+			</div>
+			
+        </div>
+        
+        <!-- Section Two - product description - 3 parts  -->
+        <div class="section-two">
+        	<div class="desc-container">
+        		<div class="desc-section">
+        			<span class="desc-title">It's All Here</span>
+        			<p class="desc-detail">Connect data, tasks, and calendars across every app, every part of your life in a consistent format you define.</p>
+        		</div>
+        		<div class="desc-section">
+        			<span class="desc-title">On Your Terms</span>
+        			<p class="desc-detail">View by subject, time, person, or priority. What does “current” mean to you? Use our templates or create your own.</p>
+        		</div>
+        		<div class="desc-section">
+        			<span class="desc-title">Get Off The List</span>
+        			<p class="desc-detail">Tired of text lists? Navigate your life in a map – pan and zoom. Focus on what's important to you and only the details you need.</p>
+        		</div>
+        	</div>
+        </div>
+        
+        <!-- Footer Section - Not Used -->
+        <!-- <footer> -->
+        	
+        <!-- </footer> -->
+   
+        
+    </body>
+ 
+</html>
